@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 word = ["The rain in Spain lies mainly in the plain"]
-if word.scan(/^\W\b([aAeEiIoOuU])) then true
+if word.scan(/\W\b([aAeEiIoOuU])) then true
 else false
 end
 end
